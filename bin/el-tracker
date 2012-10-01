@@ -1,0 +1,10 @@
+#!/usr/bin/env perl
+use warnings;
+use strict;
+
+use FindBin;
+use lib ("$FindBin::Bin/../lib/");
+use lib ("$FindBin::Bin/../lib/perl5/");
+
+use ELTracker::App;
+ELTracker::App->new_with_command->run;
