@@ -149,6 +149,7 @@ sub format_org {
 
     my $hline = "|-|-|-|\n";
 
+    # TODO: Why doesn't printing a caption work?
     #print "#+CAPTION: Earned leave for ",$self->start, ' - ', $self->stop, "\n";
     print "| Start | Stop | Hours | Comments |\n";
 
